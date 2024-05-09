@@ -5270,7 +5270,7 @@ del {
     z-index: 3
 }
 
-.ann-logo img{
+.ann-logo img {
     height: 65px;
     width: auto;
     object-fit: cover;
@@ -5688,21 +5688,23 @@ z .slider-area .hero-cap h2 {
     }
 }
 
-.best-features-area {
+.career-section-area {
     position: relative
 }
 
-.best-features-area .single-features {
-    display: flex
+.career-section-area .single-features {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
 }
 
 @media (max-width: 767px) {
-    .best-features-area .single-features {
+    .career-section-area .single-features {
         margin-bottom: 30px
     }
 }
 
-.best-features-area .single-features .features-icon span {
+.career-section-area .single-features .features-icon span {
     position: relative;
     color: #fff;
     font-size: 30px;
@@ -5717,11 +5719,17 @@ z .slider-area .hero-cap h2 {
     background-image: -ms-linear-gradient(90deg, #e78ae9 0%, #926ef8 100%)
 }
 
-.best-features-area .single-features .features-caption {
-    padding-left: 19px
+.career-section-area .row {
+    padding: 0;
+    margin: 0;
+    gap: 10px;
 }
 
-.best-features-area .single-features .features-caption h3 {
+.career-section-area .single-features .features-caption {
+    padding-top: 20px;
+}
+
+.career-section-area .single-features .features-caption h3 {
     font-size: 24px;
     font-weight: 600;
     line-height: 1.2;
@@ -5730,78 +5738,78 @@ z .slider-area .hero-cap h2 {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .best-features-area .single-features .features-caption p {
+    .career-section-area .single-features .features-caption p {
         font-size: 15px
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .best-features-area .single-features .features-caption p {
+    .career-section-area .single-features .features-caption p {
         font-size: 15px
     }
 }
 
 @media (max-width: 767px) {
-    .best-features-area .single-features .features-caption p {
+    .career-section-area .single-features .features-caption p {
         font-size: 13px
     }
 }
 
-.best-features-area .features-shpae {
+.career-section-area .features-shpae {
     position: absolute;
     left: 30px;
     top: 100px
 }
 
-.best-features-area .features-shpae.features-shpae2 {
+.career-section-area .features-shpae.features-shpae2 {
     top: 300px
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-    .best-features-area .features-shpae.features-shpae2 {
+    .career-section-area .features-shpae.features-shpae2 {
         top: 246px !important;
         transform: translateY(0)
     }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .best-features-area .features-shpae.features-shpae2 {
+    .career-section-area .features-shpae.features-shpae2 {
         top: 300px
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .best-features-area .features-shpae.features-shpae2 {
+    .career-section-area .features-shpae.features-shpae2 {
         top: 300px
     }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
-    .best-features-area .features-shpae {
+    .career-section-area .features-shpae {
         top: 50%;
         transform: translateY(-50%)
     }
 }
 
-.best-features-area .features-shpae img {
+.career-section-area .features-shpae img {
     max-width: 80%
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-    .best-features-area .features-shpae img {
+    .career-section-area .features-shpae img {
         max-width: 70%
     }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
-    .best-features-area .features-shpae img {
+    .career-section-area .features-shpae img {
         max-width: 50%;
         top: 50%
     }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .best-features-area .features-shpae img {
+    .career-section-area .features-shpae img {
         display: none !important
     }
 }
@@ -6939,3 +6947,35 @@ z .slider-area .hero-cap h2 {
 }
 
 
+.contact-area,
+.about-us,
+.career-area {
+    padding-top: 150px;
+}
+
+
+/* .job-container{
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    background-color: #8f9195;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.623);
+}
+.job-container .job-description{
+    display: flex;
+    align-items: center;
+}
+.job-container .job-description p{
+    width: 80%;
+    margin-right: 60px;
+    margin-bottom: 0;
+} */
+
+
+.job-container {
+    border-radius: 6px;
+    box-shadow: 0px 0px 9px 0px rgba(131, 93, 248, 0.07);
+    height: 330px;
+    padding: 30px;
+    margin: 20px 10px;
+}
