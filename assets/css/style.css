@@ -140,7 +140,7 @@ h4,
 h5,
 h6 {
     font-family: "Nunito", sans-serif;
-    color: #2b044d;
+    color: #3D52A0;
     margin-top: 0px;
     font-style: normal;
     font-weight: 500;
@@ -564,7 +564,7 @@ hr {
 }
 
 #scrollUp {
-    background: #8f1bdc;
+    background:#3D52A0;
     height: 50px;
     width: 50px;
     right: 31px;
@@ -5882,7 +5882,7 @@ z .slider-area .hero-cap h2 {
     line-height: 105px;
     border-radius: 50%;
     text-align: center;
-    background: #e88cea;
+    background: #7091E6;
     margin-bottom: 42px;
     -webkit-transition: .5s;
     -moz-transition: .5s;
@@ -5911,7 +5911,7 @@ z .slider-area .hero-cap h2 {
 }
 
 .services-caption:hover .service-icon span {
-    background: #835ef8
+    background: #8697c4
 }
 
 .services-caption.active {
@@ -5923,7 +5923,7 @@ z .slider-area .hero-cap h2 {
 }
 
 .services-caption.active .service-icon span {
-    background: #835ef8
+    background: #8697c4
 }
 
 .applic-apps {
@@ -5974,7 +5974,7 @@ z .slider-area .hero-cap h2 {
 }
 
 .applic-apps .single-cases-info h3 {
-    color: #2b044d;
+    /* color: ##3D52A0; */
     font-size: 40px;
     font-weight: 700;
     line-height: 1.3;
@@ -6279,7 +6279,7 @@ z .slider-area .hero-cap h2 {
 }
 
 .our-customer .single-customer .what-cap h4 a:hover {
-    color: #8f1bdc
+    color: #3D52A0
 }
 
 @media (max-width: 767px) {
@@ -6852,7 +6852,7 @@ z .slider-area .hero-cap h2 {
     border: 0;
     cursor: pointer;
     padding: 11px 22px;
-    background: #8f1bdc;
+    background: #3D52A0;
     line-height: 1
 }
 
