@@ -104,9 +104,8 @@
 
 .slick-vertical .slick-slide {
     display: block;
-
     height: auto;
-
+    /* height: 200px; */
     border: 1px solid transparent;
 }
 
@@ -118,7 +117,14 @@
 .logos-slider .slick-slide {
     margin: 0px 20px;
 }
-
+.logos-slider .slide{
+    height: 150px;
+    width: 200px !important;
+    padding: 20px;
+    /* background-color: green; */
+}
 .logos-slider .slick-slide img {
+    height: 100%;
     width: 100%;
+    object-fit: contain;
 }
