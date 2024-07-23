@@ -7136,9 +7136,9 @@ body {
 }
 
 .slick-slide img {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    /* border-radius: 50%; */
+    width: 200px;
+    /* height: 100px; */
     object-fit: cover;
 }
 

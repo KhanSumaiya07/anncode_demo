@@ -49,8 +49,9 @@
     position: relative;
     top: 0;
     left: 0;
-
-    display: block;
+    /* display: block; */
+    display: flex;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
 }
@@ -112,6 +113,10 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+.logos-slider{
+    display: flex;
+    align-items: center;
+}
 
 
 .logos-slider .slick-slide {
@@ -121,7 +126,7 @@
     height: 150px;
     width: 200px !important;
     padding: 20px;
-    /* background-color: green; */
+    background-color: green;
 }
 .logos-slider .slick-slide img {
     height: 100%;
