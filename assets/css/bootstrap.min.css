@@ -6301,8 +6301,45 @@ button.close {
     position: relative;
     width: 100%;
     overflow: hidden
-}
 
+}
+.our-customer-wrapper .carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.our-customer-wrapper .carousel-inner{
+    /* height: 300px; */
+    width: 70% !important;
+    /* background: gray; */
+    
+}
+.our-customer-wrapper p, .our-customer-wrapper span{
+    text-align: center;
+}
+.our-customer-wrapper span{
+    font-size: 22px;
+    font-weight: 500;
+}
+.customer-img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    /* background: #000; */
+    align-items: center;
+}
+.customer-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.our-customer-wrapper .carousel-customer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 .carousel-item {
     position: relative;
     display: none;
