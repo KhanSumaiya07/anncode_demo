@@ -6318,7 +6318,7 @@ button.close {
     text-align: center;
 }
 .our-customer-wrapper span{
-    font-size: 22px;
+    font-size: 2rem;
     font-weight: 500;
 }
 .customer-img{
@@ -6351,6 +6351,12 @@ button.close {
     -webkit-perspective: 1000px;
     perspective: 1000px
 }
+.carousel-item .carousel-customer p{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
 
 .carousel-item-next,
 .carousel-item-prev,
