@@ -113,7 +113,8 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
-.logos-slider{
+
+.logos-slider {
     display: flex;
     align-items: center;
 }
@@ -123,12 +124,14 @@
     height: 100px;
     /* margin: 0px 20px; */
 }
-.logos-slider .slide{
+
+.logos-slider .slide {
     /* height: 70px;
     width: 200px !important; */
     /* padding: 20px; */
     background-color: green;
 }
+
 .logos-slider .slick-slide img {
     height: 100%;
     width: 100%;
