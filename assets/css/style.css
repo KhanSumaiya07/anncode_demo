@@ -7249,7 +7249,7 @@ body {
 }
 
 .single-logo{
-    background-color: #54B9C9;
+    background-color: #fff;
     margin: 10px;
     border-radius: 10px;
 }
@@ -7306,4 +7306,21 @@ body {
 }
 .swiper-button-next, .swiper-button-prev {
     color: #000;
+}
+
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+    position: relative;
+    z-index: 3;
+}
+
+.video-container{
+    height: 100vh;
+    width: 100%;
+}
+
+.video-container video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
