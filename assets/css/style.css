@@ -7453,3 +7453,21 @@ body {
     width: 400px !important;
 }
 }
+.privacy-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.privacy-container{
+    width: 90%;
+    padding-bottom: 30px;
+    /* background: red; */
+}
+
+.privacy-container ul{
+    padding:0px 30px;
+}
+.privacy-container ul li{
+    list-style-type: disc;
+}
