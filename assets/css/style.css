@@ -7366,7 +7366,7 @@ body {
 .video-container .text-overlay{
     position: absolute;
     top: 55%;
-    left:10%;
+    /* left:10%; */
     transform: translateY(-50%);
 }
 
@@ -7375,7 +7375,24 @@ body {
     color: #fff;
     font-size: 4.5rem;
     line-height: 5rem;
+    display: none;
+    position: relative;
+    animation: textmove 2s;
+    left: 10%;
 }
+.text-overlay h1.show {
+    display: block;
+}
+
+@keyframes textmove {
+    from {
+        left: -50%;
+    }
+    to {
+        left: 10%;
+    }
+  }
+
 .video-container .text-overlay h1 mark{
     color: #ea1b3d;
     background-color: transparent;
