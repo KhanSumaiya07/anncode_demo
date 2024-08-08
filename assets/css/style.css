@@ -6018,22 +6018,50 @@ box-shadow: 0 2px 8px 0 hsla(0, 0%, 85.5%, .5);
     transition: .5s
 }
 
-.service-area .services-caption .service-icon span {
+.service-area .services-caption .service-icon .s-icon {
     position: relative;
-    color: #fff;
-    font-size: 40px;
+    /* color: #fff; */
+    /* font-size: 40px; */
     height: 105px;
     width: 105px;
-    display: block;
-    line-height: 105px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* line-height: 105px; */
     border-radius: 50%;
-    text-align: center;
+    /* text-align: center; */
     background: #54B9C9;
     margin-bottom: 42px;
     -webkit-transition: .5s;
     -moz-transition: .5s;
     -o-transition: .5s;
     transition: .5s
+}
+
+/* Define custom classes for different sizes */
+.icon-size-70 {
+    height: 70px;
+    width: 70px;
+}
+
+.icon-size-60 {
+    height: 60px;
+    width: 60px;
+}
+.icon-size-55{
+    height: 55px;
+    width: 55px;
+}
+.icon-size-80 {
+    height: 80px;
+    width: 80px;
+}
+
+
+.service-area .services-caption .service-icon .s-icon .s-icon-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .service-area .services-caption .service-cap h4 a {
