@@ -361,3 +361,6 @@ video.addEventListener('timeupdate', updateText);
 
 // Initialize the first text
 updateText();
+
+
+
