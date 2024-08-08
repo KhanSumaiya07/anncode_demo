@@ -6327,7 +6327,7 @@ button.close {
 }
 .customer-img{
     height: 70px;
-    width: 70px;
+    width: 140px;
     border-radius: 50%;
     /* background: #000; */
     align-items: center;
@@ -6335,7 +6335,7 @@ button.close {
 .customer-img img{
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 .our-customer-wrapper .carousel-customer{
     display: flex;

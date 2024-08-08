@@ -5873,6 +5873,12 @@ z .slider-area .hero-cap h2 {
 .career-section-area .single-features .features-caption .job-profile{
     width: 80%;
 }
+.career-section-area .single-features .features-caption .job-profile ul{
+    padding: 0 20px;
+}
+.career-section-area .single-features .features-caption .job-profile ul li{
+    list-style-type: disc;
+}
 .career-section-area .single-features .features-caption h3 {
     font-size: 24px;
     font-weight: 600;
@@ -6701,9 +6707,9 @@ box-shadow: 0 2px 8px 0 hsla(0, 0%, 85.5%, .5);
 }
 
 .say-something-aera .say-something-cap h2 {
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 1.2;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    font-weight: 500;
     color: #282828
 }
 
@@ -7285,6 +7291,10 @@ body {
 
     .button {
         padding: 28px 25px;
+        margin-top: 20px;
+    }
+    .career-section-area .single-features .features-caption .job-profile {
+        width: 100%;
     }
 }
 
@@ -7408,6 +7418,15 @@ body {
 .swiper-button-next::after, .swiper-button-prev:after{
     font-size: 30px !important;
 } 
+@media only screen and (max-width: 600px) {
+    .swiper-button-next, .swiper-button-prev {
+        padding: 22px;
+    }
+    .swiper-button-next::after, .swiper-button-prev:after{
+        font-size: 18px !important;
+    } 
+  }
+
 
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
     position: relative;
@@ -7575,4 +7594,14 @@ padding: 0;
     font-weight: 500;
     border-radius: 2px;
     margin-left:10px;
+}
+
+.say-width{
+    width: 70% !important;
+    position: relative;
+    z-index: 3;
+}
+
+.width-fit{
+    width: fit-content !important;
 }
