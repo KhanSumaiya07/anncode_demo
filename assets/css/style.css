@@ -2074,12 +2074,16 @@ section {
         transition: .6s
     }
 }
-
+.b-padding{
+    padding-bottom: 100px;
+}
 .section-padding2 {
     padding-top: 130px;
     padding-bottom: 130px
 }
-
+.b-section-padding{
+    padding-bottom: 100px;
+}
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .section-padding2 {
         padding-top: 100px;
@@ -2103,8 +2107,8 @@ section {
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .section-padding2 {
-        padding-top: 50px;
-        padding-bottom: 50px
+        padding-top: 70px;
+        padding-bottom: 70px
     }
 }
 
@@ -3763,13 +3767,10 @@ section {
     transition: all 0.3s
 }
 
-.contact-form-section {
-    margin-top: 100px;
-}
 
 .contact-container {
     /* margin-top: -150px; */
-    padding: 50px 0;
+    /* padding: 50px 0; */
     position: relative;
 }
 
@@ -5837,10 +5838,6 @@ z .slider-area .hero-cap h2 {
     padding: 0 20px;
 }
 
-.career-padding {
-    padding-top: 200px;
-}
-
 @media (max-width: 767px) {
     .career-section-area .single-features {
         margin-bottom: 30px
@@ -7252,8 +7249,8 @@ body {
 
 .about-container .right .img-container {
     height: 350px;
-    width: 500px;
-    background: rebeccapurple;
+    width: 100%;
+    /* background: rebeccapurple; */
     margin-top: 65px;
 }
 
@@ -7277,6 +7274,22 @@ body {
 
     .contact-form-section .container {
         width: 100%;
+    }
+}
+
+@media screen and (max-width:450px){
+    .contact-form-section .form {
+        box-shadow: none;
+        border-radius: 0;
+    }
+    .career-row{
+        padding: 0 20px;
+    }
+    .job-container{
+        padding: 0;
+    }
+    .about-container h2{
+        font-size: 1.6rem;
     }
 }
 
@@ -7313,6 +7326,9 @@ body {
 @media screen and (max-width:400px) {
     .service-area .services-caption {
         height: 600px;
+    }
+    .button{
+        padding: 24px 15px;
     }
 }
 
@@ -7386,6 +7402,9 @@ body {
     .carousel-customer{
         height: 450px;
         padding: 0 10px;
+    }
+    .d-section-padding{
+        padding-top: 150px !important;
     }
   }
 
@@ -7491,6 +7510,7 @@ body {
   @media only screen and (max-width: 800px) {
     .video-container{
         padding-top: 65px;
+        /* height: 70vh; */
     }
     .video-container .text-overlay h1{
         font-size: 3.5rem;
@@ -7500,6 +7520,10 @@ body {
   }
 
   @media only screen and (max-width: 600px) {
+    .video-container{
+        padding-top: 75px;
+        height: 70vh;
+    }
     .video-container .text-overlay{
         top: 65%;
     }
@@ -7514,6 +7538,9 @@ body {
     }
     .logo-text {
         font-size: 24px;
+    }
+    .section-padding{
+        padding-top: 70px;
     }
   }
 
@@ -7602,6 +7629,29 @@ padding: 0;
     z-index: 3;
 }
 
+@media only screen and (max-width: 650px){
+    .say-width{
+        width: 100% !important;
+    }
+    .say-something-aera .say-something-cap h2 {
+        line-height: 2.3rem;
+    }
+    }
+
+    @media only screen and (max-width: 350px){
+        .say-something-aera .say-something-cap h2 {
+            font-size: 24px;
+        }
+        .service-area .services-caption{
+            height: 570px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
 .width-fit{
     width: fit-content !important;
+}
+
+.d-section-padding{
+    padding-top: 200px;
 }
