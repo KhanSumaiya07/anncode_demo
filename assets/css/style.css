@@ -7466,12 +7466,12 @@ body {
     width: 100%;
     object-fit: cover;
 }
-.video-container .text-overlay{
+/* .video-container .text-overlay{
     position: absolute;
     top: 55%;
-    /* left:10%; */
+    left:10%;
     transform: translateY(-50%);
-}
+} */
 
 .video-container .text-overlay h1{
     width: 60%;
@@ -7479,7 +7479,9 @@ body {
     font-size: 4.5rem;
     line-height: 5rem;
     display: none;
-    position: relative;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     animation: textmove 2s;
     left: 10%;
 }
