@@ -7581,6 +7581,23 @@ body {
     width: 400px !important;
 }
 }
+
+@media only screen and (max-width: 400px){
+    .about-container{
+        padding: 0 23px;
+    }
+    .img-container{
+        height: 200px !important;
+        width: 300px !important;
+    }
+}
+@media only screen and (max-width: 320px){
+    .img-container{
+        height: 160px !important;
+        width: 260px !important;
+    }
+}
+
 .privacy-wrapper{
     width: 100%;
     display: flex;
@@ -7683,8 +7700,13 @@ padding: 0;
     height: 100px;
     width: 100px;
 }
-.discountly-logo img{
+.discountly-logo img, .appcraftly-logo img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+.appcraftly-logo{
+    height: 50px;
+    width: 50px;
 }
