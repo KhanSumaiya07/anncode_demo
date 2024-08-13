@@ -6160,10 +6160,10 @@ box-shadow: 0 2px 8px 0 hsla(0, 0%, 85.5%, .5);
 
 .applic-apps .single-cases-info h3 {
     /* color: ##3D52A0; */
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 700;
     line-height: 1.3;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     padding-right: 30px
 }
 
@@ -7400,8 +7400,9 @@ body {
 
 @media only screen and (max-width: 600px) {
     .carousel-customer{
-        height: 450px;
-        padding: 0 10px;
+        height: 380px;
+        /* padding: 0 10px; */
+        gap: 0;
     }
     .d-section-padding{
         padding-top: 150px !important;
@@ -7654,4 +7655,36 @@ padding: 0;
 
 .d-section-padding{
     padding-top: 200px;
+}
+
+@media only screen and (max-width: 1000px){
+    .our-customer-wrapper p{
+        max-height: calc(30px * 6);
+    
+    /* Hide overflow and create an ellipsis */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    /* Ensure content respects the height restriction */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6; /* Limit to 5 lines */
+    line-clamp: 5; /* For modern browsers */
+    }
+}
+
+
+.d-logo-name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.discountly-logo{
+    height: 100px;
+    width: 100px;
+}
+.discountly-logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
