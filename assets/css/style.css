@@ -6119,14 +6119,14 @@ box-shadow: 0 2px 8px 0 hsla(0, 0%, 85.5%, .5);
 
 .applic-apps .single-cases-info {
     position: relative;
-    left: 58%;
+    left: 48%;
     /* margin-top: 72px */
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .applic-apps .single-cases-info {
         margin-top: 72px;
-        left: 33%
+        left: 20%;
     }
 }
 
