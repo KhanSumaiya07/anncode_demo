@@ -304,63 +304,6 @@
 })(jQuery);
 
 
-// function showText(id) {
-//   document.querySelectorAll('.text-overlay h1').forEach(h1 => h1.style.display = 'none');
-//   document.getElementById(id).style.display = 'block';
-// }
-
-// const timings = [
-//   { id: 'text1', time: 0 },
-//   { id: 'text2', time: 5000 },
-//   { id: 'text3', time: 8000 },
-//   { id: 'text4', time: 10000 }
-// ];
-
-// function startTextRotation() {
-//   let index = 0;
-//   function rotateText() {
-//       if (index < timings.length) {
-//           showText(timings[index].id);
-//           setTimeout(rotateText, timings[index].time - (index > 0 ? timings[index - 1].time : 0));
-//           index++;
-//       } else {
-//           index = 0;
-//           setTimeout(rotateText, 14000 - timings[timings.length - 1].time);
-//       }
-//   }
-//   rotateText();
-// }
-
-// window.onload = startTextRotation;
-
-// Array to hold text and time intervals
-const textIntervals = [
-  { id: 'text1', start: 0, end: 5 },
-  { id: 'text2', start: 5, end: 8 },
-  { id: 'text3', start: 8, end: 11 },
-  { id: 'text4', start: 11, end: 14 }
-];
-
-const video = document.getElementById('heroVideo');
-
-function showText(id) {
-  document.querySelectorAll('.text-overlay h1').forEach(h1 => h1.classList.remove('show'));
-  document.getElementById(id).classList.add('show');
-}
-
-function updateText() {
-  const currentTime = video.currentTime;
-  textIntervals.forEach(interval => {
-      if (currentTime >= interval.start && currentTime < interval.end) {
-          showText(interval.id);
-      }
-  });
-}
-
-video.addEventListener('timeupdate', updateText);
-
-// Initialize the first text
-updateText();
 
 
 
